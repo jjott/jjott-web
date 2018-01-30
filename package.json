@@ -1,0 +1,35 @@
+{
+  "name": "jjott",
+  "version": "0.2.0",
+  "license": "MIT",
+  "dependencies": {
+    "bip39": "^2.5.0",
+    "invariant": "^2.2.2",
+    "lodash": "^4.17.4",
+    "material-ui": "0.20",
+    "pdfmake": "^0.1.35",
+    "qrcode": "^1.2.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-qr-reader": "^2.0.1",
+    "react-redux": "^5.0.6",
+    "react-redux-form": "^1.16.3",
+    "react-responsive": "^4.0.3",
+    "react-scripts": "1.0.17",
+    "redux": "^3.7.2",
+    "shareable-seed": "2.0.2",
+    "styled-components": "^2.4.0",
+    "validator": "^9.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && firebase deploy"
+  },
+  "devDependencies": {
+    "redux-devtools": "^3.4.1"
+  },
+  "homepage": "."
+}
